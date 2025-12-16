@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+  <title id="title">王刚同学占位照片</title>
+  <desc id="desc">一张用于展示研究生王刚的临时占位图片。</desc>
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a9396"/>
+      <stop offset="100%" stop-color="#94d2bd"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg2)" rx="16"/>
+  <circle cx="200" cy="150" r="70" fill="#f8f9fa" opacity="0.92"/>
+  <rect x="120" y="240" width="160" height="110" fill="#f8f9fa" opacity="0.92" rx="12"/>
+  <text x="200" y="280" text-anchor="middle" font-size="28" font-family="Arial, sans-serif" fill="#0a9396" font-weight="bold">王刚</text>
+  <text x="200" y="320" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" fill="#0a9396">研究生团队</text>
+</svg>

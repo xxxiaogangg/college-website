@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+  <title id="title">杨宸灏博士后占位照片</title>
+  <desc id="desc">一张用于展示杨宸灏博士后的临时占位图片。</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#004080"/>
+      <stop offset="100%" stop-color="#0077b6"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#bg)" rx="16"/>
+  <circle cx="200" cy="150" r="70" fill="#f8f9fa" opacity="0.9"/>
+  <rect x="120" y="240" width="160" height="110" fill="#f8f9fa" opacity="0.9" rx="12"/>
+  <text x="200" y="280" text-anchor="middle" font-size="28" font-family="Arial, sans-serif" fill="#004080" font-weight="bold">杨宸灏</text>
+  <text x="200" y="320" text-anchor="middle" font-size="18" font-family="Arial, sans-serif" fill="#004080">博士后团队</text>
+</svg>
