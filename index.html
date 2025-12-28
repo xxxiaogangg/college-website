@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>省部共建实验室</title>
     <link rel="stylesheet" href="assets/css/style.css">
+
 </head>
 <body>
     <header>
@@ -13,9 +14,10 @@
             <nav>
                 <ul>
                     <li><a href="index.html">首页</a></li>
-                    <li><a href="pages/team.html">研究团队</a></li>
-                    <li><a href="pages/news.html">学院要闻</a></li>
                     <li><a href="#about">关于我们</a></li>
+                    <li><a href="#news">学院要闻</a></li>
+                    <li><a href="#research">研究方向</a></li>
+                    <li><a href="#researchers">研究团队</a></li>
                     <li><a href="pages/admin.html">管理员入口</a></li>
                 </ul>
             </nav>
@@ -30,7 +32,12 @@
     </section>
 
     <main class="container">
-        
+
+        <section id="about">
+            <h2>关于我们</h2>
+            <p>欢迎来到我们的省部共建实验室。本实验室聚焦于通过非侵入性脑刺激等前沿神经调控技术，深入探索其提升人类运动与认知功能的内在机制。我们整合了行为学、神经影像学（如EEG, fNIRS）和生物力学等多种研究手段，旨在揭示大脑的可塑性规律，并开发出创新、高效的干预策略，以应对社会对脑健康日益增长的需求。</p>
+        </section>
+
         <section id="news">
             <h2>学院要闻</h2>
             <div class="news-layout-container">
@@ -54,7 +61,7 @@
                             <span>2025-07-20</span>
                         </li>
                     </ul>
-                    <div class="view-more-container" style="text-align: left; margin-top: 20px;">
+                    <div class="view-more-container view-more-left">
                        <a href="pages/news.html" class="button">查看更多新闻</a>
                    </div>
                 </div>
@@ -66,36 +73,58 @@
                             【图片替换处】
                             请将下面的 src="..." 替换为您自己的图片路径
                         -->
-                        <img src="assets/news/1.jpg" alt="Nature研究成果" class="slider-image active">
-                        <img src="assets/news/2.jpg" alt="前沿论坛现场" class="slider-image">
-                        <img src="assets/news/3.jpg" alt="挑战杯获奖" class="slider-image">
+                        <a href="pages/news.html#news1"><img src="assets/news/1.jpg" alt="Nature研究成果" class="slider-image active"></a>
+                        <a href="pages/news.html#news2"><img src="assets/news/2.jpg" alt="前沿论坛现场" class="slider-image"></a>
+                        <a href="pages/news.html#news3"><img src="assets/news/3.jpg" alt="挑战杯获奖" class="slider-image"></a>
                     </div>
                 </div>
             </div>
         </section>
 
+        <section id="research">
+            <h2>研究方向</h2>
+            <!-- <p>围绕“运动与脑健康”的交叉前沿，我们构建了从信号采集、机制解析到工程应用的研究链条。</p> -->
+            <div class="researcher-cards">
+                <div class="card" id="team-neuro">
+                    <h3>神经调控与脑刺激</h3>
+                    <p>聚焦无创脑刺激与神经调控机制，探索提升运动与认知功能的可重复干预策略，并形成可验证的评估流程。</p>
+                    <a href="pages/team.html" class="button">了解团队</a>
+                </div>
+                <div class="card" id="team-biomech">
+                    <h3>生物力学</h3>
+                    <p>结合动作测量与肌骨动力学建模，研究运动表现、损伤机制与康复过程中的力学规律，服务于训练与临床评估。</p>
+                    <a href="pages/team.html" class="button">了解团队</a>
+                </div>
+                <div class="card" id="team-engineering">
+                    <h3>体育工程</h3>
+                    <p>面向可穿戴、运动监测与康复辅助等应用场景，构建“传感—算法—系统”的工程化解决方案与平台化工具。</p>
+                    <a href="pages/team.html" class="button">了解团队</a>
+                </div>
+            </div>
+        </section>
+
         <section id="researchers">
-            <h2>研究团队</h2>
+            <h2>核心师资</h2>
             <div class="researcher-cards">
                 <!-- 首页只显示前三位 -->
                 <div class="card">
-                    <img src="assets/liuyu11.png" alt="刘宇 教授" style="background-color: #ccc; height: 280px;">
+                    <img src="assets/liuyu11.png" alt="刘宇 教授" class="profile-img">
                     <h3>刘宇 教授</h3>
                     <p>“长江学者”特聘教授 / 实验室主任</p>
                     <a href="profiles/liuyu.html" class="button">查看详细介绍</a>
                 </div>
-                
+
                 <div class="card">
-                    <img src="assets/lujiaojiao11.jpg" alt="吕娇娇 博士" style="background-color: #ccc; height: 280px;">
-                    <h3>吕娇娇 副教授</h3>
+                    <img src="assets/lujiaojiao11.jpg" alt="吕娇娇 教授" class="profile-img">
+                    <h3>吕娇娇 教授</h3>
                     <p>博士生导师</p>
                     <a href="profiles/lu-jiaojiao.html" class="button">查看详细介绍</a>
                 </div>
 
                 <div class="card">
-                    <img src="assets/huanglingyan11.jpg" alt="黄灵燕 副教授" style="background-color: #ccc; height: 280px;">
+                    <img src="assets/huanglingyan11.jpg" alt="黄灵燕 副教授" class="profile-img">
                     <h3>黄灵燕 副教授</h3>
-                    <p>博士</p>
+                    <p>副教授</p>
                     <a href="profiles/huang-lingyan.html" class="button">查看详细介绍</a>
                 </div>
             </div>
@@ -103,13 +132,13 @@
                 <a href="pages/team.html" class="button">查看更多师资</a>
             </div>
         </section>
-        
+
         <section id="postdocs">
             <h2>博士后团队</h2>
             <p>我们的博士后研究团队汇集了国内外顶尖高校的优秀青年学者，他们活跃在神经科学、生物力学和康复工程等多个前沿交叉领域。</p>
             <div class="researcher-cards">
                 <div class="card">
-                    <img src="assets/yangchenhao.jpg" alt="杨宸灏 博士后" style="background-color: #ccc; height: 280px;">
+                    <img src="assets/yangchenhao.jpg" alt="杨宸灏 博士后" class="profile-img">
                     <h3>杨宸灏 博士后</h3>
                     <p>博士后</p>
                     <p>研究方向：神经生物力学、运动障碍干预、无创深部脑刺激。</p>
@@ -123,15 +152,10 @@
 
         <section id="students">
             <h2>研究生团队</h2>
-            <p>实验室拥有一支充满活力和创新精神的研究生队伍。每年招收来自运动人体科学、生物医学工程、体育工程等多个专业的博士和硕士研究生。</p>
-            <div class="view-more-container" style="margin-top: 16px;">
+            <p>我们培养面向交叉前沿的研究生队伍，每年招收来自运动人体科学、医学技术、体育工程等多个专业的博士和硕士研究生。</p>
+            <div class="view-more-container mt-16">
                 <a class="button" href="pages/students.html">查看研究生团队</a>
             </div>
-        </section>
-
-        <section id="about">
-            <h2>关于我们</h2>
-            <p>欢迎来到我们的省部共建实验室。本实验室聚焦于通过非侵入性脑刺激等前沿神经调控技术，深入探索其提升人类运动与认知功能的内在机制。我们整合了行为学、神经影像学（如EEG, fNIRS）和生物力学等多种研究手段，旨在揭示大脑的可塑性规律，并开发出创新、高效的干预策略，以应对社会对脑健康日益增长的需求。</p>
         </section>
 
     </main>
@@ -140,6 +164,7 @@
         <div class="container">
             <p>&copy; 2025 省部共建实验室 | 版权所有</p>
             <p>联系地址：上海市杨浦区恒仁路188号, 200438</p>
+            <p class="footer-note">联系与合作：如需合作交流，请以学院/学校官方渠道为准；实验室邮箱与电话信息后续补充更新。</p>
         </div>
     </footer>
 
